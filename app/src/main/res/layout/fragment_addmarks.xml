@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="40dp"
+        android:background="@drawable/back"
+        >
+        <LinearLayout
+            android:background="@drawable/edit_text_style"
+            android:id="@+id/l"
+            android:padding="15dp"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Spinner
+
+                android:id="@+id/spinnerStudId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/select_role"
+                android:dropDownWidth="match_parent"
+                />
+        </LinearLayout>
+        <EditText
+            android:layout_marginTop="30dp"
+            android:padding="7dp"
+            android:background="#fff"
+            android:id="@+id/student_marks"
+            android:layout_width="match_parent"
+            android:lines="2"
+            android:gravity="left|start"
+            android:hint="Student Marks"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_margin="40dp"
+            android:text="Send"
+            android:typeface="serif"
+            android:background="@drawable/button480"
+            android:id="@+id/send_button" />
+
+</LinearLayout>

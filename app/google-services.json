@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "322460406220",
+    "firebase_url": "https://attendanceusingnfc.firebaseio.com",
+    "project_id": "attendanceusingnfc",
+    "storage_bucket": "attendanceusingnfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322460406220:android:16753d5740fb9b51",
+        "android_client_info": {
+          "package_name": "com.example.student.teacher.nfc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322460406220-sguj4j803qlvhpsre6l8raj0hkrrc7di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCojysiik2cGC-G9TaYC0YRnq-veFe1B0Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322460406220-sguj4j803qlvhpsre6l8raj0hkrrc7di.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

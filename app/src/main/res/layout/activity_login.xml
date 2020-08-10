@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/back">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <ImageView
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView"
+            android:src="@mipmap/ic_launcher"
+          android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+        <LinearLayout
+            android:background="@drawable/edit_text_style"
+            android:id="@+id/l"
+            android:padding="15dp"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/spinnerRole"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/select_role"
+            android:dropDownWidth="match_parent"
+            />
+        </LinearLayout>
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/l"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/edit_text_style"
+    android:id="@+id/t1"
+
+    >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/editTextUserName"
+            android:hint="Enter Mobile No."
+            android:paddingLeft="10dp"
+            />
+</android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/t1"
+        android:id="@+id/t2"
+        android:layout_centerHorizontal="true"
+        >
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:hint="Enter Password"
+            android:id="@+id/editTextPassword"
+          />
+</android.support.design.widget.TextInputLayout>
+        <Button
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/buttonLogin"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button480"
+            android:layout_below="@+id/t2"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>
